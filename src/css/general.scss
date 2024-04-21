@@ -1,0 +1,25 @@
+body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container {
+  background-color: #383838;
+  box-sizing: border-box;
+  max-width: 1600px;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}

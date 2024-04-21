@@ -1,0 +1,18 @@
+.left {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .leftBg {
+    width: 100%;
+    height: 700px;
+  }
+  @import './components/weather_update.scss';
+}
+
+.right {
+  padding: 20px 100px 20px 40px;
+
+  @import './components/module_form.scss';
+}
